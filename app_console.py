@@ -187,11 +187,41 @@ def scrape_rtp() -> List:
     return articles
 
 
+def scrape_rtbf() -> List:
+    url = 'https://www.rtbf.be/en-continu/'
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    Logging.echo(url)
+    # print(soup.prettify())
+    categories = []
+    for cat in soup.find('ul', 'relative flex w-full select-none snap-x list-none flex-nowrap gap-6 overflow-x-auto lg:overflow-x-hidden sb-scroll-40 w-full gap-x-16').find_all('a', class_='outline-0'):
+        category_url = cat.get('href').split('/')[-1]
+        if category_url != 'en-continu':
+            category_name = cat.find('span', class_='pointer-events-none').get_text(strip=True)
+            categories.append({'category_name': category_name, 'base_url': url + category_url})
+    print(categories)
+
+    articles = []
+    for category in categories:
+        for article in soup.find_all('a', class_='stretched-link leading-[1.6rem] outline-none'):
+            # link = article.find('a')
+
+            # if link:
+            article_url = article.get('href')
+            articles.append({'base_url': category['base_url'], 'url': 'https://www.rtbf.be' + article_url})
+    print(articles)
+
+
+    return articles
+
 
 if __name__ == "__main__":
-    # inews_articles = scrape_inews()
-    # svt_articles = scrape_svt()
+    inews_articles = scrape_inews()
+    svt_articles = scrape_svt()
     rtp_articles = scrape_rtp()
-    # rtbf_articles = scrape_rtbf()
+    rtbf_articles = scrape_rtbf()
 
-    # print('iNews Articles:', inews_articles)
+    print('Scrapped iNews Articles:', len(inews_articles))
+    print('Scrapped SVT Articles:', len(svt_articles))
+    print('Scrapped RTP Articles:', len(rtp_articles))
+    print('Scrapped RTBF Articles:', len(rtbf_articles))
