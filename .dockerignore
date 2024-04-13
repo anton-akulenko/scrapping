@@ -1,0 +1,40 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+
+# CI
+.codeclimate.yml
+.travis.yml
+.taskcluster.yml
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker
+.dockerignore
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+.mypy_cache
+.mypy-cache
+__pycache__
+*/__pycache__
+.pytest_cache
+
+# Installer logs
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+
+# Virtual environment
+.venv/
+venv/
+
+# PyCharm
+.idea
+.run
+.ruff_cache
+
+requirements-dev.txt

@@ -1,0 +1,13 @@
+venv/*
+.idea/*
+.mypy_cache
+.mypy-cache
+__pycache__
+*/__pycache__
+.env/settings.toml
+.env/.env
+.ruff_cache
+uploads
+!uploads/.gitkeep
+flask_session
+!flask_session/.gitkeep
