@@ -12,11 +12,11 @@
 
 ## Project settings
  - Please refer to classes/config.py
- - Replace URL's for news articles from websites:
-   - 24heures.ch
-   - breakinglatest.news
-   - chiswickcalendar.co.uk
-   - corriere.it
+ - Replace or add URL's for news articles from websites:
+   - 24heures.ch (self.URLS_24HEURES)
+   - breakinglatest.news (self.URLS_BREAKINGLATEST)
+   - chiswickcalendar.co.uk (self.URLS_CHISWICKCALENDAR)
+   - corriere.it (self.URLS_CORRIERE)
 
 
 #
