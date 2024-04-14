@@ -1,14 +1,14 @@
-from __future__ import annotations
+from typing import List
 
 import requests
 from bs4 import BeautifulSoup
-from classes.config import CONFIG
-from libs.funcs import save, convert_publication_date, init_chrome
-from libs.logging.logger import Logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
-from typing import List
+
+from classes.config import CONFIG
+from libs.funcs import save, convert_publication_date, init_chrome
+from libs.logging.logger import Logging
 
 
 def scrape_24heures(url):
