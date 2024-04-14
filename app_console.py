@@ -43,7 +43,6 @@ def main() -> None:
     )
 
     Logging.echo(CONFIG.SETTING_EXAMPLE)
-    Logging.echo("Hi Bro!")
     if arguments.test_string_argument is not None:
         Logging.echo("You passed -test_string_argument: '{message}'".format(message=arguments.test_string_argument))
     else:
@@ -52,7 +51,7 @@ def main() -> None:
         Logging.echo("You passed -optional test_bool_argument as True")
 
 
-def scrape_inews():
+def scrape_inews() -> List:
     url = 'https://inews.co.uk/category/news'
 
     # cat_url = 'https://inews.co.uk'
@@ -72,13 +71,12 @@ def scrape_inews():
         'inews__post-hero__headline',
         'iinews__post-superhero__content'
     ]
+    articles = []
     for category in categories:
         response = requests.get(category['base_url'])
         soup = BeautifulSoup(response.content, 'html.parser')
         print(category['category_name'])
         # print(soup.find_all('div', {'class': 'inews__post'}))
-
-        articles = []
         for class_name in classes:
             for article in soup.find_all('div', class_=class_name):
                 link = article.find('a')
@@ -89,12 +87,10 @@ def scrape_inews():
         print(articles)
     return articles
 
-def scrape_svt():
+def scrape_svt() -> List:
     url = 'https://svt.se'
-
     driver = webdriver.Chrome(options=options)
     driver.get(url)
-
     cookie_ok_button = WebDriverWait(driver, 5).until(
         EC.element_to_be_clickable((By.XPATH, '// *[ @ id = "root"] / div[2] / div / div[3] / button[3]')))
     cookie_ok_button.click()
@@ -124,12 +120,12 @@ def scrape_svt():
             categories.append({'base_url': url + category_url, 'category_name': category_name})
     print(categories)
 
+    articles = []
     for category in categories:
         response = requests.get(category['base_url'])
         soup = BeautifulSoup(response.content, 'html.parser')
         print(category['category_name'])
 
-        articles = []
         for article in soup.find_all('a', class_='nyh_teaser__link'):
             article_url = article.get('href')
             articles.append({'base_url': category['base_url'], 'url': url + article_url})
@@ -170,6 +166,7 @@ def scrape_rtp() -> List:
         categories.append({'category_name': category_name, 'base_url': category_url})
     print(categories)
 
+    articles = []
     for category in categories:
         driver.get(category['base_url'])
         WebDriverWait(driver, 10).until(
@@ -177,7 +174,6 @@ def scrape_rtp() -> List:
         )
         news_bar = driver.page_source
         soup = BeautifulSoup(news_bar, 'html.parser')
-        articles = []
         for article in soup.find_all('article'):
             article_url = article.get('data-playlist-item-url')
             if article_url:
@@ -210,8 +206,6 @@ def scrape_rtbf() -> List:
             article_url = article.get('href')
             articles.append({'base_url': category['base_url'], 'url': 'https://www.rtbf.be' + article_url})
     print(articles)
-
-
     return articles
 
 
