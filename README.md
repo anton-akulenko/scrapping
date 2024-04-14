@@ -1,5 +1,6 @@
 ## Requirements
- - Please refer to pyproject.toml
+ - Just clone the repo and install the requirements using pip install -r requirements.txt
+ - Refer to pyproject.toml if you prefer poetry
  - Python >= 3.12.1
 
 

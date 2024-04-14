@@ -1,19 +1,17 @@
 from __future__ import annotations
 
-from typing import List
-
 import requests
 from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.webdriver.support.ui import WebDriverWait
-
 from classes.config import CONFIG
 from libs.funcs import init_chrome, save_articles
 from libs.logging.logger import Logging
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.ui import WebDriverWait
+from typing import List
 
 
-def scrape_inews(url) -> List:
+def scrape_inews(url):
     classes = [
         "inews__post-jot__content-headline",
         "inews__post-hero__headline",
@@ -49,7 +47,7 @@ def scrape_inews(url) -> List:
     Logging.echo(f'Saved to "{filename}"')
 
 
-def scrape_svt(url) -> List:
+def scrape_svt(url):
     driver = init_chrome()
     driver.get(url)
     cookie_ok_button = WebDriverWait(driver, 5).until(
@@ -106,7 +104,7 @@ def scrape_svt(url) -> List:
     Logging.echo(f'Saved to "{filename}"')
 
 
-def scrape_rtp(url) -> List:
+def scrape_rtp(url):
     driver = init_chrome()
     driver.get(url)
 
@@ -199,7 +197,7 @@ def scrape_rtbf(url):
     Logging.echo(f'Saved to "{filename}"')
 
 
-def main() -> None:
+def main():
     Logging.echo("Starting scraping... Keep calm :)")
     scrape_inews(CONFIG.INEWS_BASE)
     scrape_svt(CONFIG.SVT_BASE)
