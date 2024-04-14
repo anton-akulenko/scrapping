@@ -4,12 +4,12 @@ from classes.singleton import Singleton
 class Config(metaclass=Singleton):
     """Class for store all project settings."""
 
-    URLS_24HEURES: list
-    URLS_BREAKINGLATEST: list
-    URLS_CHISWICKCALENDAR: list
-    URLS_CORRIERE: list
+    URLS_24HEURES = None
+    URLS_BREAKINGLATEST = None
+    URLS_CHISWICKCALENDAR = None
+    URLS_CORRIERE = None
 
-    def __init__(self) -> None:
+    def __init__(self):
         """Load settings from file."""
         self.URLS_24HEURES = [
             "https://www.24heures.ch/football-le-lausanne-sport-se-rapproche-du-maintien-347973444223",

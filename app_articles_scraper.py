@@ -23,9 +23,7 @@ def scrape_24heures(url):
     title = soup.find("span", "ContentHead_text__2MEnX")
     if title is not None:
         title = title.text
-    author = soup.find(
-        "a", "ContentMetaInfo_authorlink__BYNhG link_underlinelink__K5Zr0"
-    )
+    author = soup.find("a", "ContentMetaInfo_authorlink__BYNhG link_underlinelink__K5Zr0")
     if author is not None:
         author = author.text
     pub_date = soup.find(
@@ -55,24 +53,19 @@ def scrape_breakinglatest(url):
     title = soup.find("h1", "post-title single-post-title entry-title")
     if title is not None:
         title = title.text
-    author = soup.find(
-        "a", "ContentMetaInfo_authorlink__BYNhG link_underlinelink__K5Zr0"
-    )
+    author = soup.find("a", "ContentMetaInfo_authorlink__BYNhG link_underlinelink__K5Zr0")
     if author is not None:
         author = author.text
     pub_date = soup.find("time", "entry-date published").get("datetime")
     datetime_f, readable_f = convert_publication_date(pub_date)
 
-    paragraph_text = soup.find("div", class_="inner-post-entry entry-content").find_all(
-        "p"
-    )
-    if paragraph_text != []:
+    paragraph_text = soup.find("div", class_="inner-post-entry entry-content").find_all("p")
+    if paragraph_text:
         content = " ".join([p.text for p in paragraph_text])
     else:
         content = soup.find(
             "h3",
-            "ContentHead_lead____SsS link_regular__O0hk0"
-            " link_externalicon-big__ZdPgo link_externalicon__qcwXs",
+            "ContentHead_lead____SsS link_regular__O0hk0" " link_externalicon-big__ZdPgo link_externalicon__qcwXs",
         ).text
     filename = save(url, title, content, author, datetime_f, readable_f)
     Logging.echo(f"Data saved to file {filename}")
@@ -96,11 +89,7 @@ def scrape_chiswickcalendar(url):
         section = h3.text + "\n"
         next_elem = h3.find_next_sibling()
         while next_elem and next_elem.name != "h3":
-            if (
-                next_elem.name == "p"
-                and "Read more" not in next_elem.text
-                and "Image above" not in next_elem.text
-            ):
+            if next_elem.name == "p" and "Read more" not in next_elem.text and "Image above" not in next_elem.text:
                 section += next_elem.text
             next_elem = next_elem.find_next_sibling()
         sections.append(section)
@@ -112,9 +101,7 @@ def scrape_chiswickcalendar(url):
 def scrape_corriere(url):
     driver = init_chrome()
     driver.get(url)
-    cookie_ok_button = WebDriverWait(driver, 5).until(
-        ec.element_to_be_clickable((By.ID, "privacy-cp-wall-accept"))
-    )
+    cookie_ok_button = WebDriverWait(driver, 5).until(ec.element_to_be_clickable((By.ID, "privacy-cp-wall-accept")))
     cookie_ok_button.click()
     page_html = driver.page_source
     driver.quit()

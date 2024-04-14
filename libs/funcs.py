@@ -2,7 +2,6 @@ import inspect
 import json
 import os
 from datetime import datetime
-from typing import Any
 
 from selenium import webdriver
 
@@ -15,7 +14,7 @@ def get_calling_function_name():
     return calling_function_name
 
 
-def save_articles(articles: list[dict[str, Any]]) -> None:
+def save_articles(articles):
     current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     calling_function_name = get_calling_function_name()
     directory_path = os.path.join(os.getcwd(), "data")
@@ -51,7 +50,7 @@ def save(url, title, content, author, datetime_f, readable_f):
     return filename
 
 
-def convert_publication_date(date: str) -> tuple[str, Any]:
+def convert_publication_date(date):
     date_time = datetime.fromisoformat(date.replace("Z", "+00:00"))
     full_date_time_format = date_time.strftime("%A, %d %B %Y, %H:%M:%S")
     return date_time.strftime("%Y-%m-%d_%H-%M-%S"), full_date_time_format

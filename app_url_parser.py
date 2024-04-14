@@ -22,9 +22,7 @@ def scrape_inews(url):
     for category in soup.select(".inews__post-section__title > h2 > a"):
         category_url = category.get("href")
         category_name = category.text.strip()
-        categories.append(
-            {"base_url": url + category_url, "category_name": category_name}
-        )
+        categories.append({"base_url": url + category_url, "category_name": category_name})
     articles = []
     for category in categories:
         response = requests.get(category["base_url"])
@@ -34,14 +32,9 @@ def scrape_inews(url):
                 link = article.find("a")
                 if link:
                     article_url = link.get("href")
-                    articles.append(
-                        {"base_url": category["base_url"], "url": article_url}
-                    )
+                    articles.append({"base_url": category["base_url"], "url": article_url})
     filename = save_articles(articles)
-    Logging.echo(
-        f"Collecting for {url} done! Total amount {len(articles)} "
-        f"in {len(categories)} categories."
-    )
+    Logging.echo(f"Collecting for {url} done! Total amount {len(articles)} " f"in {len(categories)} categories.")
     Logging.echo(f'Saved to "{filename}"')
 
 
@@ -49,16 +42,12 @@ def scrape_svt(url):
     driver = init_chrome()
     driver.get(url)
     cookie_ok_button = WebDriverWait(driver, 5).until(
-        ec.element_to_be_clickable(
-            (By.XPATH, '// *[ @ id = "root"] / div[2] / div / div[3] / button[3]')
-        )
+        ec.element_to_be_clickable((By.XPATH, '// *[ @ id = "root"] / div[2] / div / div[3] / button[3]'))
     )
     cookie_ok_button.click()
 
     menu_item = WebDriverWait(driver, 10).until(
-        ec.presence_of_element_located(
-            (By.XPATH, '//*[@id="nyh_a11y-primary-navigation-list"]/li[1]/a[2]')
-        )
+        ec.presence_of_element_located((By.XPATH, '//*[@id="nyh_a11y-primary-navigation-list"]/li[1]/a[2]'))
     )
 
     menu_item.click()
@@ -82,9 +71,7 @@ def scrape_svt(url):
         if category.get("href").startswith("/nyheter/"):
             category_url = category.get("href")
             category_name = category.text.strip()
-            categories.append(
-                {"base_url": url + category_url, "category_name": category_name}
-            )
+            categories.append({"base_url": url + category_url, "category_name": category_name})
 
     articles = []
     for category in categories:
@@ -92,13 +79,9 @@ def scrape_svt(url):
         soup = BeautifulSoup(response.content, "html.parser")
         for article in soup.find_all("a", class_="nyh_teaser__link"):
             article_url = article.get("href")
-            articles.append(
-                {"base_url": category["base_url"], "url": url + article_url}
-            )
+            articles.append({"base_url": category["base_url"], "url": url + article_url})
     filename = save_articles(articles)
-    Logging.echo(
-        f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories."
-    )
+    Logging.echo(f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories.")
     Logging.echo(f'Saved to "{filename}"')
 
 
@@ -106,20 +89,12 @@ def scrape_rtp(url):
     driver = init_chrome()
     driver.get(url)
 
-    cookie_ok_button = WebDriverWait(driver, 5).until(
-        ec.element_to_be_clickable((By.ID, "didomi-notice-agree-button"))
-    )
+    cookie_ok_button = WebDriverWait(driver, 5).until(ec.element_to_be_clickable((By.ID, "didomi-notice-agree-button")))
     cookie_ok_button.click()
 
-    menu_item = WebDriverWait(driver, 10).until(
-        ec.presence_of_element_located((By.CLASS_NAME, "navbar-toggler"))
-    )
+    menu_item = WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.CLASS_NAME, "navbar-toggler")))
     menu_item.click()
-    WebDriverWait(driver, 10).until(
-        ec.presence_of_element_located(
-            (By.CSS_SELECTOR, "#nav-padder > ul:nth-child(2)")
-        )
-    )
+    WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.CSS_SELECTOR, "#nav-padder > ul:nth-child(2)")))
     menu_html = driver.page_source
     soup = BeautifulSoup(menu_html, "html.parser")
     Logging.echo(f"Start collecting urls for {url}")
@@ -152,9 +127,7 @@ def scrape_rtp(url):
                 articles.append({"base_url": category["base_url"], "url": article_url})
     driver.quit()
     filename = save_articles(articles)
-    Logging.echo(
-        f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories."
-    )
+    Logging.echo(f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories.")
     Logging.echo(f'Saved to "{filename}"')
 
 
@@ -169,18 +142,12 @@ def scrape_rtbf(url):
     ).find_all("a", class_="outline-0"):
         category_url = cat.get("href").split("/")[-1]
         if category_url != "en-continu":
-            category_name = cat.find("span", class_="pointer-events-none").get_text(
-                strip=True
-            )
-            categories.append(
-                {"category_name": category_name, "base_url": url + category_url}
-            )
+            category_name = cat.find("span", class_="pointer-events-none").get_text(strip=True)
+            categories.append({"category_name": category_name, "base_url": url + category_url})
 
     articles = []
     for category in categories:
-        for article in soup.find_all(
-            "a", class_="stretched-link leading-[1.6rem] outline-none"
-        ):
+        for article in soup.find_all("a", class_="stretched-link leading-[1.6rem] outline-none"):
             article_url = article.get("href")
             articles.append(
                 {
@@ -189,9 +156,7 @@ def scrape_rtbf(url):
                 }
             )
     filename = save_articles(articles)
-    Logging.echo(
-        f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories."
-    )
+    Logging.echo(f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories.")
     Logging.echo(f'Saved to "{filename}"')
 
 
