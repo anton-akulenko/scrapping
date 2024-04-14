@@ -1,5 +1,3 @@
-from typing import List
-
 import requests
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
@@ -50,7 +48,7 @@ def scrape_24heures(url):
     Logging.echo(f"Data saved to file {filename}")
 
 
-def scrape_breakinglatest(url) -> List:
+def scrape_breakinglatest(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, "html.parser")
     Logging.echo(f"Scrapping...{url}")
