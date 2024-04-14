@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f3e8dda-be58-4f10-b365-9627708d8053" name="Changes" comment="first part rough done">
+    <list default="true" id="6f3e8dda-be58-4f10-b365-9627708d8053" name="Changes" comment="fix for articles">
+      <change afterPath="$PROJECT_DIR$/app_articles_scraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/console.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/console.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_url_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/logging/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/logging/logger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +46,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/_test_task/DA/selenium-olx&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/_test_task/Scraping",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_test_task\Scraping" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_test_task\Scraping" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713000684524</updated>
       <workItem from="1713000693140" duration="32589000" />
-      <workItem from="1713073856242" duration="1656000" />
+      <workItem from="1713073856242" duration="24466000" />
+      <workItem from="1713102263794" duration="5369000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -83,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713047804888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix for articles">
+      <option name="closed" value="true" />
+      <created>1713075612989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713075612989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="first part rough done" />
-    <option name="LAST_COMMIT_MESSAGE" value="first part rough done" />
+    <MESSAGE value="fix for articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix for articles" />
   </component>
 </project>

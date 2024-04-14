@@ -1,42 +1,25 @@
 ## Requirements
- - #TODO: add here project requirements 
+ - Please refer to pyproject.toml
  - Python >= 3.12.1
 
 
-## Installation
+## Usage
 
- - #TODO: add here other instructions
+ - app_url_parser.py will grab urls for news articles 
+ - app_articles_scraper.py will grab content from articles (title, author, publication date, content )
 
 
 ## Project settings
- - #TODO: add here descriptions of all project settings 
+ - Please refer to classes/config.py
+ - Replace URL's for news articles from websites:
+   - 24heures.ch
+   - breakinglatest.news
+   - chiswickcalendar.co.uk
+   - corriere.it
 
 
-## Run
- - #TODO: add here run instructions
+#
 
 
-## Codestyle
- - use flake8
-   ```
-   $PyInterpreterDirectory$/flake8 $ProjectFileDir$
-   ```
- - use mypy
-   ```
-   $PyInterpreterDirectory$/mypy --config-file $ProjectFileDir$/pyproject.toml $ProjectFileDir$
-   ```
- - use black
-   ```
-   $PyInterpreterDirectory$/black --diff --color $ProjectFileDir$
-   ```
- - use ruff
-   ```
-   $PyInterpreterDirectory$/ruff check $ProjectFileDir$
-   ```
 
-All configs of all linters are in the `/pyproject.toml` file.
-
-
-## TODO list for future
- - [ ] #TODO: add here any information as project todo list for future improvements 
 

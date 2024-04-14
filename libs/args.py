@@ -1,8 +1,4 @@
-# coding=utf-8
-# Created by Ievgen Bryl at 25.03.2024
-
 from __future__ import annotations
-
 import argparse
 
 from classes.arguments import Arguments
@@ -17,9 +13,11 @@ def process_arguments() -> Arguments:
         required=False,
         type=str,
         default=None,
-        choices=[None, "one", "two", "three", "Bla-bla-bla!"],
+        choices=[None, "one", "two", "three"],
     )
-    arg_parser.add_argument("-test_bool_argument", action="store_true", help="Test boolean argument")
+    arg_parser.add_argument(
+        "-test_bool_argument", action="store_true", help="Test boolean argument"
+    )
 
     arguments = arg_parser.parse_args()
     return Arguments(

@@ -20,7 +20,11 @@ class Logging:
         """Print report message."""
         prefix = ""
         if Logging.prefix is not None:
-            prefix = Logging.prefix if Logging.prefix_args is None else Logging.prefix.format(*Logging.prefix_args)
+            prefix = (
+                Logging.prefix
+                if Logging.prefix_args is None
+                else Logging.prefix.format(*Logging.prefix_args)
+            )
         logger.opt(colors=True).info(prefix + message)
 
     @staticmethod
@@ -30,7 +34,9 @@ class Logging:
         Logging.prefix_args = None
 
     @staticmethod
-    def prepare_to_output(prefix: str | None = None, prefix_args: tuple[PropertyWrapper] | None = None) -> None:
+    def prepare_to_output(
+        prefix: str | None = None, prefix_args: tuple[PropertyWrapper] | None = None
+    ) -> None:
         """Prepare logger for console output format."""
         logger.remove()
         logger.add(
