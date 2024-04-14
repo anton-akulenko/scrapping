@@ -1,0 +1,962 @@
+[
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/info",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/sport",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/culture",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/regions",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/environnement",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/bien-etre",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/tech",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/direct-guerre-au-proche-orient-la-syrie-estime-que-l-iran-son-allie-a-exerce-son-droit-a-l-autodefense-11358752"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/faith-ringgold-artiste-americaine-inspiree-du-mouvement-des-droits-civiques-est-decedee-a-lage-de-93-ans-11358902"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/tom-pidcock-remporte-l-amstel-gold-race-a-l-audace-au-terme-d-une-course-tactique-benoot-3e-11358491"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/le-cauberg-ne-convenait-pas-a-lotte-kopecky-qui-sest-sacrifiee-pour-son-equipe-a-lamstel-11358894"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/wiebes-celebre-trop-tot-et-se-prive-de-victoire-sur-lamstel-une-bete-erreur-je-vais-mal-dormir-pendant-quelques-nuits-11358888"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/la-banque-francaise-bnp-paribas-devient-lactionnaire-principal-de-lassureur-ageas-des-son-entree-au-capital-11358877"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/auguste-rodin-une-renaissance-moderne-a-mons-11358842"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/couchez-votre-colere-par-ecrit-puis-jetez-la-conseille-une-etude-japonaise-11357898"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/pascal-wehrlein-empoche-le-second-e-prix-de-misano-au-detriment-du-trop-gourmand-oliver-rowland-11358007"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/afghanistan-33-morts-en-trois-jours-dans-des-inondations-11358864"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/entre-joie-et-inquietude-les-viticulteurs-wallons-face-au-rechauffement-climatique-11358858"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/des-cas-de-violences-policieres-a-namur-plusieurs-associations-veulent-ouvrir-le-debat-11358027"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/indonesie-au-moins-19-morts-et-2-disparus-dans-un-glissement-de-terrain-11358821"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/sur-sa-lancee-le-club-de-bruges-devore-lantwerp-et-met-la-pression-sur-les-clubs-bruxellois-11357502"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/une-embarcation-transportant-38-migrants-reperee-entre-coxyde-et-le-royaume-uni-11358814"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/la-chaine-belge-bristol-envisage-de-quitter-les-pays-bas-11358859"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-apres-une-nuit-dangoisse-l-immense-sentiment-de-soulagement-de-la-population-israelienne-11358762"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/le-restaurant-legendaire-elbulli-rouvre-ses-portes-mais-d-une-facon-insolite-11357900"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/guerre-au-proche-orient-raid-israelien-sur-un-batiment-du-hezbollah-dans-lest-du-liban-11358849"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/politique-fiction-un-podcast-pour-imaginer-et-anticiper-le-futur-politique-de-la-belgique-11353095"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/des-vacances-de-paques-positives-pour-la-cote-belge-11358806"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/amstel-gold-race-dames-wiebes-leve-les-bras-trop-tot-et-offre-la-victoire-a-marianne-vos-11358498"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/sander-gille-et-joran-vliegen-decrochent-leur-premier-masters-1000-a-monte-carlo-11358841"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/une-ecole-bruxelloise-releve-le-defi-pour-viva-for-life-un-exemple-inspirant-de-solidarite-11358129"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/guerre-en-ukraine-kiev-dit-renforcer-ses-defenses-pour-contrer-la-poussee-russe-vers-tchassiv-iar-11358823"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/court-saint-etienne-le-festival-en-vrac-semble-indiquer-une-fragile-relance-des-produits-en-vrac-11358836"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/un-ticket-pour-leurope-face-aux-data-centers-lirlande-est-sous-tension-11358822"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/le-spectacle-ephemere-des-jonquilles-de-la-holzwarche-a-attire-les-amateurs-de-nature-11358828"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/tension-palpable-a-united-agace-par-une-question-erik-ten-hag-quitte-la-conference-de-presse-11358826"
+    },
+    {
+        "base_url": "https://www.rtbf.be/en-continu/vie-pratique",
+        "url": "https://www.rtbf.be/article/londres-le-nouveau-paradis-des-melomanes-11357620"
+    }
+]

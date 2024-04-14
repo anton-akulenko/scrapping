@@ -7,7 +7,7 @@
 
  - app_url_parser.py will grab urls for news articles 
  - app_articles_scraper.py will grab content from articles (title, author, publication date, content )
-
+ - scrapped data saved as json at  **data** dir
 
 ## Project settings
  - Please refer to classes/config.py
