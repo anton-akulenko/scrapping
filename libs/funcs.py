@@ -11,14 +11,6 @@ from typing import Any
 from selenium import webdriver
 
 
-def generate_rnd_string(length: int = 64) -> str:
-    """Generate random string AZ09 with requested length."""
-    return "".join(
-        SystemRandom().choice(string.ascii_uppercase + string.digits)
-        for _ in range(length)
-    )
-
-
 def get_calling_function_name():
     # Get the call stack
     stack = inspect.stack()
@@ -69,7 +61,7 @@ def convert_publication_date(date: str) -> tuple[str, Any]:
     return date_time.strftime("%Y-%m-%d_%H-%M-%S"), full_date_time_format
 
 
-def init_Chrome():
+def init_chrome():
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
     options.add_argument("--blink-settings=imagesEnabled=false")

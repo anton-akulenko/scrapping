@@ -5,11 +5,11 @@ from typing import List
 import requests
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 
 from classes.config import CONFIG
-from libs.funcs import init_Chrome, save_articles
+from libs.funcs import init_chrome, save_articles
 from libs.logging.logger import Logging
 
 
@@ -43,23 +43,24 @@ def scrape_inews(url) -> List:
                     )
     filename = save_articles(articles)
     Logging.echo(
-        f"Collecting for {url} done! Total amount {len(articles)} in {len(categories)} categories."
+        f"Collecting for {url} done! Total amount {len(articles)} "
+        f"in {len(categories)} categories."
     )
     Logging.echo(f'Saved to "{filename}"')
 
 
 def scrape_svt(url) -> List:
-    driver = init_Chrome()
+    driver = init_chrome()
     driver.get(url)
     cookie_ok_button = WebDriverWait(driver, 5).until(
-        EC.element_to_be_clickable(
+        ec.element_to_be_clickable(
             (By.XPATH, '// *[ @ id = "root"] / div[2] / div / div[3] / button[3]')
         )
     )
     cookie_ok_button.click()
 
     menu_item = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located(
+        ec.presence_of_element_located(
             (By.XPATH, '//*[@id="nyh_a11y-primary-navigation-list"]/li[1]/a[2]')
         )
     )
@@ -67,7 +68,7 @@ def scrape_svt(url) -> List:
     menu_item.click()
 
     WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located(
+        ec.presence_of_element_located(
             (
                 By.CSS_SELECTOR,
                 "#nyh_a11y-primary-navigation-list > li:nth-child(1) > ul",
@@ -106,20 +107,20 @@ def scrape_svt(url) -> List:
 
 
 def scrape_rtp(url) -> List:
-    driver = init_Chrome()
+    driver = init_chrome()
     driver.get(url)
 
     cookie_ok_button = WebDriverWait(driver, 5).until(
-        EC.element_to_be_clickable((By.ID, "didomi-notice-agree-button"))
+        ec.element_to_be_clickable((By.ID, "didomi-notice-agree-button"))
     )
     cookie_ok_button.click()
 
     menu_item = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CLASS_NAME, "navbar-toggler"))
+        ec.presence_of_element_located((By.CLASS_NAME, "navbar-toggler"))
     )
     menu_item.click()
     WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located(
+        ec.presence_of_element_located(
             (By.CSS_SELECTOR, "#nav-padder > ul:nth-child(2)")
         )
     )
@@ -140,7 +141,7 @@ def scrape_rtp(url) -> List:
     for category in categories:
         driver.get(category["base_url"])
         WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(
+            ec.presence_of_element_located(
                 (
                     By.CSS_SELECTOR,
                     "#noticias > div.container.main-content.margin-top > div.row > div.sidebar_articles.col-12.col-lg-4.relative.bg-color.d-print-none.d-none.d-sm-none.d-lg-block > section",
@@ -167,8 +168,8 @@ def scrape_rtbf(url):
     Logging.echo(f"Start collecting urls for {url}")
     categories = []
     for cat in soup.find(
-            "ul",
-            "relative flex w-full select-none snap-x list-none flex-nowrap gap-6 overflow-x-auto lg:overflow-x-hidden sb-scroll-40 w-full gap-x-16",
+        "ul",
+        "relative flex w-full select-none snap-x list-none flex-nowrap gap-6 overflow-x-auto lg:overflow-x-hidden sb-scroll-40 w-full gap-x-16",
     ).find_all("a", class_="outline-0"):
         category_url = cat.get("href").split("/")[-1]
         if category_url != "en-continu":
@@ -182,7 +183,7 @@ def scrape_rtbf(url):
     articles = []
     for category in categories:
         for article in soup.find_all(
-                "a", class_="stretched-link leading-[1.6rem] outline-none"
+            "a", class_="stretched-link leading-[1.6rem] outline-none"
         ):
             article_url = article.get("href")
             articles.append(
@@ -199,7 +200,7 @@ def scrape_rtbf(url):
 
 
 def main() -> None:
-    Logging.echo(f"Starting scraping... Keep calm :)")
+    Logging.echo("Starting scraping... Keep calm :)")
     scrape_inews(CONFIG.INEWS_BASE)
     scrape_svt(CONFIG.SVT_BASE)
     scrape_rtp(CONFIG.RTP_BASE)

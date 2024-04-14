@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f3e8dda-be58-4f10-b365-9627708d8053" name="Changes" comment="fix for articles">
-      <change afterPath="$PROJECT_DIR$/app_articles_scraper.py" afterDir="false" />
+    <list default="true" id="6f3e8dda-be58-4f10-b365-9627708d8053" name="Changes" comment="scripts done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/console.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/console.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_url_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_articles_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_articles_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_url_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_url_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/args.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libs/funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/funcs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/logging/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/logging/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
     <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -84,7 +80,7 @@
       <updated>1713000684524</updated>
       <workItem from="1713000693140" duration="32589000" />
       <workItem from="1713073856242" duration="24466000" />
-      <workItem from="1713102263794" duration="5369000" />
+      <workItem from="1713102263794" duration="9436000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -110,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713075612989</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="scripts done">
+      <option name="closed" value="true" />
+      <created>1713107791557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713107791557</updated>
+    </task>
+    <task id="LOCAL-00005" summary="scripts done">
+      <option name="closed" value="true" />
+      <created>1713107923966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713107923966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +143,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="first part rough done" />
     <MESSAGE value="fix for articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for articles" />
+    <MESSAGE value="scripts done" />
+    <option name="LAST_COMMIT_MESSAGE" value="scripts done" />
   </component>
 </project>
